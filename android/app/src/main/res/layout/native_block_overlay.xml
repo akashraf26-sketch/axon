@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked App"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn2Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 min"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn5Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 min"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn10Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 min"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn20Min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20 min"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+</LinearLayout>
