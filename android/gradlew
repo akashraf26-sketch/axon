@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# Resolve script directory
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# If JVM is installed, use the default gradle wrapper script
+APP_HOME="${DIR}"
+CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
+JAVACMD=${JAVACMD:-java}
+
+if [ ! -f "$CLASSPATH" ]; then
+  echo "ERROR: Gradle wrapper JAR missing. Run 'flutter pub get' or regenerate the wrapper." >&2
+  exit 1
+fi
+
+exec "$JAVACMD" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
