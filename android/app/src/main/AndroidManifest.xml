@@ -7,11 +7,6 @@
         android:label="axon"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-
-        <meta-data
-            android:name="flutterEmbedding"
-            android:value="2" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -29,6 +24,11 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+                        
+
+            <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
         </activity>
 
         <service
