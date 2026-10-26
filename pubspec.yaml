@@ -14,7 +14,6 @@ dependencies:
   provider: ^6.1.2
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  purchases_flutter: ^8.1.0
   google_fonts: ^6.2.1
   lucide_icons: ^0.257.0
   percent_indicator: ^4.2.3
