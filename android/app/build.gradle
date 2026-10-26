@@ -22,7 +22,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.axon.productivity"
-    compileSdk = flutter.compileSdkVersion
+    compileSdkVersion 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -36,8 +36,8 @@ android {
 
     defaultConfig {
         applicationId = "com.axon.productivity"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdkVersion 24
+        targetSdkVersion 34
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
     }
